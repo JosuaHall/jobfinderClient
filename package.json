@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://jobfinderaiapi.netlify.app",
+  "proxy": "https://jobfinderapi-n3wz.onrender.com",
   "eslintConfig": {
     "extends": [
       "react-app",
