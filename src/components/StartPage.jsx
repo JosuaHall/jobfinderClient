@@ -4,6 +4,7 @@ import React from "react";
 import { Link, Navigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import profileAnalysis from "../pictures/profileAnalysis.JPG";
+import jobMatchScreen from "../pictures/jobMatchScreen.JPG";
 
 const StartPage = () => {
   return (
@@ -46,7 +47,7 @@ const StartPage = () => {
           <b style={{ color: "#0275d8" }}>perfect Matching Job</b>{" "}
           <small>from thousands of job postings</small>
         </h1>
-        <img className="laptop" src={profileAnalysis} width={"80%"} alt="" />
+        <img className="laptop" src={jobMatchScreen} width={"80%"} alt="" />
       </div>
 
       <div className="m-5 px-5 py-2">
