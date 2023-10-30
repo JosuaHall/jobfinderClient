@@ -5,7 +5,7 @@ const TableauDashboard = () => {
     const initTableau = () => {
       const containerDiv = document.getElementById("tableauViz");
       const url =
-        "https://public.tableau.com/views/JobDashboardv4CVD/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link";
+        "https://public.tableau.com/views/JobDashboardv3/JobAnalytics?:language=en-US&:display_count=n&:origin=viz_share_link";
 
       const options = {
         width: "100%",
