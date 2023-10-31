@@ -44,6 +44,8 @@ code {
   grid-column: 1; /* Align the nav-area to the first column */
   background-color: #323d6d;
   /* Add other styles for your fixed navigation here */
+  height:100%;
+  width: auto;
 }
 
 .navbar-area {
@@ -51,15 +53,36 @@ code {
   /* Additional styles for your navbar can be added here */
 }
 
-.content-area {
-  grid-column: 2; /* Align the content-area to the second column */
-  overflow-y: auto; /* Enable vertical scrolling if content overflows */
-  margin: 1em;
+/* For webkit-based browsers (Chrome, Safari, etc.) */
+.content-area::-webkit-scrollbar {
+  width: 0.5em; /* Set width of the vertical scrollbar */
+}
 
+.content-area::-webkit-scrollbar-thumb {
+  background-color: #3a457b; /* Color of the scrollbar thumb */
+  border-radius: 0.2em; /* Round the corners of the thumb */
+}
+
+.content-area::-webkit-scrollbar-track {
+  background-color: transparent; /* Color of the scrollbar track */
+}
+
+/* For Firefox */
+.content-area {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent; /* Track and thumb color */
+}
+
+/* General styles */
+.content-area {
+  grid-column: 2;
+  overflow-y: auto;
+  margin: 1em;
   background-color: #3a457b;
   border-radius: 1.2em;
-  /* Additional styles for your content area can be added here */
 }
+
+
 
 .content-content {
   text-align: center;
@@ -107,7 +130,6 @@ code {
 }
 
 .brand {
-  font-size: xx-large;
   font-weight: bold;
 }
 
@@ -210,8 +232,8 @@ code {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4em;
-  gap: 5em;
+  margin-top: 2em;
+  gap: 4em;
 }
 
 .profile-option-card{
@@ -221,7 +243,7 @@ code {
   border: solid 1px grey;
   border-radius: 1em;
   width: 25%;
-  height: 400px;
+  height: 50%;
   padding: 7em;
   transition: .1s;
 }

@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link className="link brand" to={`/home`}>
           <div className="d-flex align-items-center justify-content-center p-2 gap-2">
             <img className="athletia-logo" src={logo} width="40px" />
-            <h3 style={{ padding: 0, margin: 0 }}>JobFinderAI</h3>
+            <h5 style={{ padding: 0, margin: 0 }}>JobFinderAI</h5>
           </div>
         </Link>
       </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
                   isActive("/home") ? "active-link" : ""
                 }`}
               >
-                Dashboard
+                <h5 style={{ padding: 0, margin: 0 }}>Dashboard</h5>
               </div>
             </Link>
             <hr />
@@ -58,7 +58,7 @@ const Navbar = () => {
                   isActive("/setup/profile") ? "active-link" : ""
                 }`}
               >
-                Profile Setup
+                <h5 style={{ padding: 0, margin: 0 }}>Profile Setup</h5>
               </div>
             </Link>
             <hr />
@@ -68,7 +68,7 @@ const Navbar = () => {
                   isActive("/profile/analysis") ? "active-link" : ""
                 }`}
               >
-                Your Profile Analysis
+                <h5 style={{ padding: 0, margin: 0 }}>Your Profile Analysis</h5>
               </div>
             </Link>
             <hr />
@@ -78,7 +78,7 @@ const Navbar = () => {
                   isActive("/job/matchings") ? "active-link" : ""
                 }`}
               >
-                Your Job Matches
+                <h5 style={{ padding: 0, margin: 0 }}>Your Job Matches</h5>
               </div>
             </Link>
             <hr />
@@ -88,7 +88,7 @@ const Navbar = () => {
                   isActive("/job/search") ? "active-link" : ""
                 }`}
               >
-                Job Search
+                <h5 style={{ padding: 0, margin: 0 }}>Job Search</h5>
               </div>
             </Link>
             <hr />
@@ -98,7 +98,7 @@ const Navbar = () => {
                   isActive("/other/resources") ? "active-link" : ""
                 }`}
               >
-                Additional Resources
+                <h5 style={{ padding: 0, margin: 0 }}>Additional Resources</h5>
               </div>
             </Link>
             <hr />
@@ -143,7 +143,7 @@ const Navbar = () => {
                 isActive("/register") ? "active-link" : ""
               }`}
             >
-              Sign Up
+              <h5>Sign Up</h5>
             </div>
           </Link>
         </div>
@@ -159,7 +159,7 @@ const Navbar = () => {
                 isActive("/login") ? "active-link" : ""
               }`}
             >
-              Login
+              <h5>Login</h5>
             </div>
           </Link>
         </div>
