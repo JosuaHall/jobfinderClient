@@ -11,8 +11,9 @@ const Header = () => {
           <h1 style={{ color: "lightgray" }}>
             Welcome {`${user.firstName} ${user.lastName} `}
           </h1>
-          <h3 style={{ color: "white" }}>JobFinderAI</h3>
-          <h5>Dashboard of Job Listings</h5>
+          <h3 style={{ color: "white" }}>
+            JobFinderAI - Dashboard of Job Listings
+          </h3>
         </div>
         <div>
           <img src={sketch} alt="" />

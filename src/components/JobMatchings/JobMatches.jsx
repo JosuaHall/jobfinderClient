@@ -50,7 +50,13 @@ const JobMatches = () => {
         Start New Personalized Job Match
       </button>
       {isLoading ? (
-        <LoadingSpinner />
+        <>
+          <LoadingSpinner />
+          <p>
+            Enjoy the AI generated music while we are preparing your profile
+            analysis :)
+          </p>
+        </>
       ) : matches !== undefined ? (
         <div className="job-match-grid">
           <div className="job-match-job card2">

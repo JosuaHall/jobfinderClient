@@ -32,13 +32,21 @@ const StartPage = () => {
           </Link>
         </div>
       </div>
+      <div style={{ position: "absolute", bottom: 100, left: "50%" }}>
+        <FontAwesomeIcon
+          icon={["fa", "caret-down"]}
+          size="4x"
+          color="rgb(0,128,255)"
+          className=""
+        />
+      </div>
       <div className="section">
         <h1 className="p-4" style={{ textAlign: "left", marginLeft: "2em" }}>
           <small>Get Your </small>
           <b style={{ color: "#0275d8" }}>Personalized Profile Analysis</b>
           <small> based on your Profile..</small>
         </h1>
-        <img className="laptop" src={profileAnalysis} width={"80%"} alt="" />
+        <img className="laptop" src={profileAnalysis} width={"60%"} alt="" />
       </div>
 
       <div className="section">
@@ -47,7 +55,7 @@ const StartPage = () => {
           <b style={{ color: "#0275d8" }}>perfect Matching Job</b>{" "}
           <small>from thousands of job postings</small>
         </h1>
-        <img className="laptop" src={jobMatchScreen} width={"80%"} alt="" />
+        <img className="laptop" src={jobMatchScreen} width={"60%"} alt="" />
       </div>
 
       <div className="m-5 px-5 py-2">

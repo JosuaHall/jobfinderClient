@@ -29,7 +29,7 @@ const Navbar = () => {
         <Link className="link brand" to={`/home`}>
           <div className="d-flex align-items-center justify-content-center p-2 gap-2">
             <img className="athletia-logo" src={logo} width="40px" />
-            <h5 style={{ padding: 0, margin: 0 }}>JobFinderAI</h5>
+            <p style={{ padding: 0, margin: 0 }}>JobFinderAI</p>
           </div>
         </Link>
       </div>
@@ -40,71 +40,71 @@ const Navbar = () => {
         </div>
 
         <div>
-          <div className="nav-dropdown-list">
+          <div>
             <hr />
             <Link to={`/home`} className="link">
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/home") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Dashboard</h5>
+                <p style={{ padding: 0, margin: 0 }}>Dashboard</p>
               </div>
             </Link>
             <hr />
             <Link to={`/setup/profile`} className="link">
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/setup/profile") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Profile Setup</h5>
+                <p style={{ padding: 0, margin: 0 }}>Profile Setup</p>
               </div>
             </Link>
             <hr />
             <Link to={`/profile/analysis`} className={`link`}>
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/profile/analysis") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Your Profile Analysis</h5>
+                <p style={{ padding: 0, margin: 0 }}>Your Profile Analysis</p>
               </div>
             </Link>
             <hr />
             <Link to={`/job/matchings`} className={`link`}>
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/job/matchings") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Your Job Matches</h5>
+                <p style={{ padding: 0, margin: 0 }}>Your Job Matches</p>
               </div>
             </Link>
             <hr />
             <Link to={`/job/search`} className={`link`}>
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/job/search") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Job Search</h5>
+                <p style={{ padding: 0, margin: 0 }}>Job Search</p>
               </div>
             </Link>
             <hr />
             <Link to={`/other/resources`} className={`link`}>
               <div
-                className={`py-2 px-3 link ${
+                className={`py-1 px-3 link ${
                   isActive("/other/resources") ? "active-link" : ""
                 }`}
               >
-                <h5 style={{ padding: 0, margin: 0 }}>Additional Resources</h5>
+                <p style={{ padding: 0, margin: 0 }}>Additional Resources</p>
               </div>
             </Link>
             <hr />
             <Link onClick={() => logUserOut()} to="/login" className={`link`}>
               <div
-                className={`py-2 px-3 link btn btn-danger ${
+                className={`py-1 px-3 link btn btn-danger ${
                   isActive("/login") ? "active-link" : ""
                 }`}
               >
@@ -139,11 +139,11 @@ const Navbar = () => {
             className={`link`}
           >
             <div
-              className={`py-2 px-3 link ${
+              className={`py-1 px-3 link ${
                 isActive("/register") ? "active-link" : ""
               }`}
             >
-              <h5>Sign Up</h5>
+              <p style={{ margin: 0 }}>Sign Up</p>
             </div>
           </Link>
         </div>
@@ -155,11 +155,11 @@ const Navbar = () => {
             className={`link`}
           >
             <div
-              className={`py-2 px-3 link ${
+              className={`py-1 px-3 link ${
                 isActive("/login") ? "active-link" : ""
               }`}
             >
-              <h5>Login</h5>
+              <p style={{ margin: 0 }}>Login</p>
             </div>
           </Link>
         </div>

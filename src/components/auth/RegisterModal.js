@@ -67,7 +67,7 @@ const RegisterModal = () => {
           <h3 style={{ padding: 0, margin: 0 }}>JobFinderAI</h3>
         </div>
       </h1>
-      <div className="form-border">
+      <div className="form-border-registration">
         <h2 className="m-4 login-label">
           <FontAwesomeIcon
             icon={["fas", "user"]}

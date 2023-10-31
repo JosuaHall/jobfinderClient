@@ -4,7 +4,7 @@ const ResourceCard = ({ heading, text, picture, link }) => {
   return (
     <div className="card1 d-flex gap-2">
       <div>
-        <img src={picture} width={200} alt="" style={{ borderRadius: "2em" }} />
+        <img src={picture} width={170} alt="" style={{ borderRadius: "2em" }} />
       </div>
       <div>
         <h4>{heading}</h4>

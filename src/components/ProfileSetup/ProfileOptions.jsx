@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const ProfileOptions = () => {
   return (
     <React.Fragment>
-      <h5 className="mt-5">Select an option</h5>
+      <h5 className="mt-4">Select an option</h5>
       <div className="profile-options">
         <Link
           to={"/setup/profile/edit/profile"}

@@ -51,7 +51,13 @@ const ProfileAnalysis = () => {
         Start New Profile Analysis
       </button>
       {isLoading ? (
-        <LoadingSpinner />
+        <>
+          <LoadingSpinner />
+          <p>
+            Enjoy the AI generated music while we are preparing your profile
+            analysis :)
+          </p>
+        </>
       ) : analysis ? (
         <div className="grid-container">
           <div className="grid-item">
