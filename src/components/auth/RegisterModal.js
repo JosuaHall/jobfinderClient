@@ -60,24 +60,18 @@ const RegisterModal = () => {
   // JSX code for the registration form component
   return (
     <div className="login-logout-form">
-      <h1 className="m-4">
-        Welcome to{" "}
-        <div className="d-flex align-items-center justify-content-center p-2 gap-2 m-4">
-          <img className="athletia-logo" src={logo} width="40px" />
-          <h3 style={{ padding: 0, margin: 0 }}>JobFinderAI</h3>
-        </div>
-      </h1>
+      <h5 className="m-4">Welcome to JobFinderAI</h5>
       <div className="form-border-registration">
-        <h2 className="m-4 login-label">
+        <h5 className="m-4 login-label">
           <FontAwesomeIcon
             icon={["fas", "user"]}
-            size="2x"
+            size="1x"
             color="rgb(0,128,255)"
             className="user-icon"
           />
           Register
-        </h2>
-        <h4 className="m-4">Please fill in your information</h4>
+        </h5>
+        <p className="m-4">Please fill in your information</p>
         {msg ? <Alert color="danger">{msg}</Alert> : null}
         <Form onSubmit={onSubmit}>
           <FormGroup>

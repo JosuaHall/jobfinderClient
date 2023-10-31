@@ -350,6 +350,8 @@ code {
   background-color: #323d6d;
   padding: 1em;
   text-align: left;
+  align-items: center;
+  justify-content: center;
 }
 
 

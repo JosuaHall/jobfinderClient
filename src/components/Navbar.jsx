@@ -124,7 +124,7 @@ const Navbar = () => {
         <Link className="link brand" to={`/`}>
           <div className="d-flex align-items-center justify-content-center p-2 gap-2">
             <img className="athletia-logo" src={logo} width="40px" />
-            <h3 style={{ padding: 0, margin: 0 }}>JobFinderAI</h3>
+            <p style={{ padding: 0, margin: 0 }}>JobFinderAI</p>
           </div>
         </Link>
       </div>

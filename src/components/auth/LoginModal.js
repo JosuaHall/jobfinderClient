@@ -81,24 +81,18 @@ const LoginModal = () => {
   // JSX code for the login form component
   return (
     <React.Fragment>
-      <h1 className="m-4">
-        Welcome to{" "}
-        <div className="d-flex align-items-center justify-content-center p-2 gap-2 m-4">
-          <img className="athletia-logo" src={logo} width="40px" />
-          <h3 style={{ padding: 0, margin: 0 }}>JobFinderAI</h3>
-        </div>
-      </h1>
+      <h5 className="m-4">Welcome to JobFinderAI</h5>
       <div className="form-border">
         <div className="login-logout-form">
-          <h2 className="m-4 login-label">
+          <h5 className="m-4 login-label">
             <FontAwesomeIcon
               icon={["fas", "user"]}
-              size="2x"
+              size="1x"
               color="rgb(0,128,255)"
               className="user-icon"
             />
             Sign In
-          </h2>
+          </h5>
           {msg ? <Alert color="danger">{msg}</Alert> : null}
           <Form onSubmit={onSubmit}>
             <FormGroup>
