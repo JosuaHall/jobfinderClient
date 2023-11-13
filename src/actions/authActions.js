@@ -1,5 +1,6 @@
 // authAction.js
 // Created on: October 1, 2023
+// Description: actions (usually for making api requests) for authentification and any user related data
 import axios from "axios";
 import { returnErrors, clearErrors } from "./errorActions";
 import packageInfo from "../../package.json";

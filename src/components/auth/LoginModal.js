@@ -1,5 +1,7 @@
 // LoginModal.js
 // Created on: October 1, 2023
+// Description: React Component for displaying the Login Modal
+
 import React, { useState, useEffect } from "react";
 import {
   Button,

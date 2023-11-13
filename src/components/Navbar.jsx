@@ -1,3 +1,7 @@
+// Navbar.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying the Navigation Bar
+
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

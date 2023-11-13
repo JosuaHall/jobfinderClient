@@ -1,5 +1,9 @@
 // errorReducer.js
 // Created on: October 1, 2023
+// Description: Reducers are user to update the state variables. Each reducer has a corresponding action
+//                -> for example, errorReducer.js has actions(triggers) named errorActions.js
+//  - authReducer lists all state variables used within the application that are related to error messages
+
 import { GET_ERRORS, CLEAR_ERRORS } from "../actions/types";
 
 const initialState = {

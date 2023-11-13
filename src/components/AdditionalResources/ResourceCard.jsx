@@ -1,3 +1,7 @@
+// errorActions.js
+// Created on: October 1, 2023
+// Description: React Component -> displaying a resource card
+
 import React from "react";
 
 const ResourceCard = ({ heading, text, picture, link }) => {

@@ -1,3 +1,7 @@
+// Header.js
+// Created on: October 1, 2023
+// Description: React Component for displaying the Header of the Profile Setup Screen
+
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import sketch from "../../pictures/headerInterviewSketch.JPG";

@@ -1,3 +1,7 @@
+// AdditionalRecources.jsx
+// Created on: October 1, 2023
+// Descriptiom: React Component for displaying the Additional Resources Page
+
 import React from "react";
 import Header from "./../ProfileSetup/Header";
 import monster from "../../pictures/monster.png";

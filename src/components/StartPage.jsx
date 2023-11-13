@@ -1,5 +1,8 @@
 // StartPage.jsx
 // Created on: October 1, 2023
+// Description: The lading page of the web application -
+//  displaying some general information about the application
+
 import React from "react";
 import { Link, Navigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

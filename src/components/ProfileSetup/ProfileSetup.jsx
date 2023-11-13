@@ -1,3 +1,8 @@
+// ProfileSetup.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying the Profile
+// - either initial profile setup or navigation option after
+
 import React, { useEffect } from "react";
 import Header from "./Header";
 import Form from "./Form";

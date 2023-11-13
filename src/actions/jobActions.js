@@ -1,3 +1,7 @@
+// jobActions.js
+// Created on: October 1, 2023
+// Descriptiom: actions for job related data, updating the job state, making api requests
+
 import axios from "axios";
 import { returnErrors, clearErrors } from "./errorActions";
 import packageInfo from "../../package.json";

@@ -1,5 +1,7 @@
 // errorActions.js
 // Created on: October 1, 2023
+// Descriptiom: actions for any error message, updating the error state
+
 import { GET_ERRORS, CLEAR_ERRORS } from "./types";
 
 // RETURN ERRORS

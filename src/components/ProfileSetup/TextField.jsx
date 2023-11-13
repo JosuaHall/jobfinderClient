@@ -1,3 +1,7 @@
+// TextField.js
+// Created on: October 1, 2023
+// Description: React Component for displaying a custom TextField
+
 import React, { useState } from "react";
 
 const TextField = ({ onTextChange, placeholder, info }) => {

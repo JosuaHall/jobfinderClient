@@ -1,3 +1,7 @@
+// JobSearch.js
+// Created on: October 1, 2023
+// Description: React Component for displaying the entire Traditional Search Page
+
 import React from "react";
 import Header from "./Header";
 import JobListingsTable from "./JobListingTable";

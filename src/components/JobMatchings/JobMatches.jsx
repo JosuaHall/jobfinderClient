@@ -1,3 +1,7 @@
+// JobMatches.js
+// Created on: October 1, 2023
+// Description: React Component for displaying the perfect Job Match
+
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getJobMatches } from "../../actions/jobActions";

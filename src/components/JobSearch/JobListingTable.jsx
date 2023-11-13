@@ -1,3 +1,8 @@
+// JobListingTable.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying the Job Matches Table of the tradiotional Job Search
+//  based on the Job Title and City
+
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import LoadingSpinner from "./../LoadingSpinner";

@@ -1,3 +1,7 @@
+// CircularProgressBar.js
+// Created on: October 5, 2023
+// Description: React Component for displaying the Progress Bar for the Job Match Score (depeding on the % match)
+
 import React, { useEffect, useRef } from "react";
 
 const CircularProgressBar = ({ percentage }) => {

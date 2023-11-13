@@ -1,3 +1,8 @@
+// Form.jsx
+// Created on: October 1, 2023
+// Description: React Component for the User Profile Form
+// - allowing users to enter their data for their profile setup
+
 import React, { useState } from "react";
 import InputField from "./InputField";
 import TextField from "./TextField";

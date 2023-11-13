@@ -1,3 +1,8 @@
+// types.js
+// Created on: September 24, 2023
+// Description: list of all types used in the application
+//  types are the actions that are used whenever a change is detected
+
 export const USER_LOADING = "USER_LOADING";
 export const USER_LOADED = "USER_LOADED";
 export const USER_UPDATE = "USER UPDATED";

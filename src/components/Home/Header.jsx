@@ -1,3 +1,7 @@
+// Header.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying the Header of the Home Screen Page
+
 import React from "react";
 import { useSelector } from "react-redux";
 import sketch from "../../pictures/headerInterviewSketch.JPG";

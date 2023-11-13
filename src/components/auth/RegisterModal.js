@@ -1,5 +1,7 @@
 // RegisterModal.js
 // Created on: October 1, 2023
+// Description: React Component for displaying the Register Modal
+
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Button, Form, FormGroup, Label, Input, Alert } from "reactstrap";

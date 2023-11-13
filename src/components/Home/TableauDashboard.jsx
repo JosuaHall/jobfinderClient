@@ -1,3 +1,7 @@
+// TableauDashboard.jsx
+// Created on: October 5, 2023
+// Description: React Component for displaying the Job Analytics Dashboard
+
 import React, { useEffect } from "react";
 
 const TableauDashboard = () => {

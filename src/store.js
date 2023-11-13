@@ -1,5 +1,8 @@
 // store.js
 // Created on: October 1, 2023
+// Description: Configuration file to set up the store for storing the state data of the entire application
+//  - Required when working with a redux store
+
 import { configureStore, applyMiddleware } from "@reduxjs/toolkit";
 import rootReducer from "./reducers/index";
 import thunk from "redux-thunk";

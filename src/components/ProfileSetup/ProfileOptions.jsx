@@ -1,3 +1,7 @@
+// ProfileOptions.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying the navigation options for a user after the initial profile setup
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

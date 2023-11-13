@@ -1,3 +1,7 @@
+// LoadingSpinner.jsx
+// Created on: October 1, 2023
+// Description: React Component for displaying a loading spinner
+
 import React from "react";
 
 const LoadingSpinner = () => {

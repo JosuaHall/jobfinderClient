@@ -1,5 +1,8 @@
 // RequireAuth.js
 // Created on: October 1, 2023
+// Description: Middleware for Private Routing for Protected Routes.
+//  - only allowing users to access a certain private route if aithenticated
+
 import React from "react";
 import { useSelector } from "react-redux";
 import { Navigate, useLocation } from "react-router-dom";

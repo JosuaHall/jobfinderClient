@@ -1,5 +1,9 @@
-// authReducer.js
+// authReducer.jsx
 // Created on: October 1, 2023
+// Description: Reducers are user to update the state variables. Each reducer has a corresponding action
+//                -> for example, authReducer.js has actions(triggers) named authActions.js
+//  - authReducer lists all state variables used within the application that are related to user data
+
 import {
   USER_LOADED,
   USER_LOADING,

@@ -1,5 +1,7 @@
 // App.js
 // Created on: October 1, 2023
+// Description: Entry file for the entire Applciation: Defines the navigation routes of the entire application
+// -> depending on the Route, different Screens are rendered
 import React, { useEffect } from "react";
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 import { getProfile, loadUser } from "./actions/authActions";
