@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# JobFinderAIServer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Visit The Server for JobFinderAI](https://github.com/JosuaHall/jobfinderServer)
 
-## Available Scripts
+JobFinderAI is a full-stack web application that utilizes the MERN stack (MongoDB, Express.js, React, Node.js) and Redux store management to provide an AI platform enabling users to match their resumes with suitable jobs.
 
-In the project directory, you can run:
+- Significantly improved job matching accuracy and relevance.
+- Engineered the platform to harness k-Nearest Neighbor algorithm and vector search technology.
+- Enabled precise job matches based on user resumes, elevating the user experience and results significantly.
+- Utilized: React, Redux, Node, MongoDB, Vector Search, K-nearest Neighbor Algorithm, Large Language Model (OpenAI), R
 
-### `npm start`
+Functionalities:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- create your own profile
+- upload resumee (work experience, skills, prefered job)
+- get your personalized job profile analysis (containing valuable insights about your strengths)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Find the perfect matching job:
 
-### `npm test`
+- by utilizing the OpenAI LLM and vector search, the platform will compare all jobs with your personal profile and provide you with the best match
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+security:
 
-### `npm run build`
+- secure authentication and authorization using JSON web-token
+- password encryption with a hash algorithm.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Landing Page
+<img width="957" alt="register" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/6c706562-c5a4-45de-b535-8fc6f7f9cbe0">
+<img width="957" alt="register" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/ee186510-25cd-4912-9bb0-e9a40fdc6a80">
+<img width="957" alt="register" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/e74cd2ac-2c6a-4ef0-b85a-4188f520e92f">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Register Account
+<img width="957" alt="register" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/7438bc71-cda0-4c8e-8056-5b14b64b3f63">
 
-### `npm run eject`
+Login<br></br>
+<img width="954" alt="signIn" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/e3927aa1-b4ca-4b4a-bbd5-cc64f5654dc7">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your User Profile
+<img width="954" alt="signIn" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/44440a1c-7140-4bfe-978d-4dff27505b26">
+After initial profile has been created
+<img width="954" alt="signIn" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/aba86338-6006-4a5c-b2d3-2780f9b98501">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Enjoy some AI generated music while the LLM generates your profile analysis
+<img width="954" alt="signIn" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/f60451a6-0e11-442b-ab6c-98445b0e0297">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Your Profile Analysis
+<img width="957" alt="startScreen" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/77a7bcd0-4d25-49a4-bb79-e2d4d4df1d18">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Your Perfect Job Match
+<img width="957" alt="startScreen" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/52ac12e3-73b7-40a9-9f08-20923141b6ca">
 
-## Learn More
+Traditional Job Search
+<img width="957" alt="startScreen" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/c70f1a6e-a997-4692-992f-5d78c039c826">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Additional Resources
+<img width="951" alt="notifications" src="https://github.com/JosuaHall/jobfinderServer/assets/98910142/7118034a-93e5-48a7-a984-72d262a5d2d1">

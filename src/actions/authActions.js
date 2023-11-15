@@ -117,8 +117,6 @@ export const login =
         "Content-Type": "application/json",
       },
     };
-
-    console.log(`${packageInfo.proxy}/api/auth`);
     //Request body
     const body = JSON.stringify({ email, password });
     axios
